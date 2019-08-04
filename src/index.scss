@@ -1,0 +1,86 @@
+:root{
+
+  // COLORS
+  --color-p: #8B0000;
+  --color-p-light:#c2402a;
+  --color-p-dark: #580000;
+  --color-on-p: #fff;
+
+  --color-p-mentee: #8B0000;
+  --color-p-light-mentee:#c2402a;
+  --color-p-dark-mentee: #580000;
+  --color-on-p-mentee: #fff;
+
+  --color-p-mentor:#0EC214;
+  --color-p-light-mentor:#62f650;
+  --color-p-dark-mentor: #009000;
+  --color-on-p-mentor: #000;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #ccc;
+  
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --color-disable-txt:#8c8b8b;
+  --color-disable-bg: #DBD9D9;
+
+  --color-grey-bg: #d3d3d380;
+
+  --color-grey-trs:#3333331a; 
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-surface: #fff;
+  --color-on-surface: #000;
+
+  // FONTS
+  --def-font-size: 2rem;
+  --def-font-family: 'Heebo', sans-serif;;
+
+  // BLOCKS
+  --box-shadow-sml: 0 1rem 2rem rgba(0,0,0,0.2);;
+  --box-shadow-med: 0 .5rem 1rem rgba(0,0,0,0.4);
+  --box-shadow-lg: .1rem .9rem 2rem rgba(0,0,0,0.4);
+
+}
+
+
+/* GLOBAL RESET */
+*{
+  padding: 0;
+  margin: 0;
+  &,
+  &::before,
+  &::after{
+      font-size: 62.5%;
+      box-sizing: border-box;
+  }
+}
+
+/* BODY RESET */
+body{
+  font-family: var(--def-font-family), sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 1.2;
+  user-select: none;
+  background-color: var(--color-white); 
+}
+
+/* FONTS RESET */
+input , div , h1 , h2 , h3 , h4 , h5 , p , span , button , textarea , select , label{
+  font-size: var(--def-font-size);
+  font-family: var(--def-font-family);
+  white-space: pre-line;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",monospace;
+}
+
+/* IMPORT BLOCKS */
+
